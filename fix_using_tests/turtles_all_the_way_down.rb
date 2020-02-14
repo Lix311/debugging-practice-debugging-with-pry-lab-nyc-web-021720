@@ -12,7 +12,6 @@ def turtle_traits(turtles)
   final_array = []
   turtles.map do |turtle|
     final_array.push(turtle[:traits])
-    end
   end
 final_array 
 end
