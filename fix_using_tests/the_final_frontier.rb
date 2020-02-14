@@ -12,13 +12,13 @@ def crew
 end
 
 def greet_crew (crew)
-
-  crew.each {|crew_member| puts "Hello #{crew_member}."}
+array = []
+  crew.each {|crew_member| array << "Hello #{crew_member}."}
+  return array
 end
 
 def engage
   date = generate_star_date
   state_log(date)
-  crew = crew()
   greet_crew(crew)
 end
