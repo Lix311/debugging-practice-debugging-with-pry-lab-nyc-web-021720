@@ -15,6 +15,7 @@ def turtle_traits(turtles)
       array = []
       array << trait
       final_array << array 
+    binding.pry 
     end
   end
 final_array 
